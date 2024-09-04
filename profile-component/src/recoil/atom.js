@@ -1,9 +1,9 @@
-import { atom } from "recoil";
+import { atom } from 'recoil';
 
 export const profileState = atom({
   key: 'profileState',
   default: {
-    picture: 'https://pbs.twimg.com/media/F-Grz0cbUAEQRow.jpg', 
+    picture: 'https://pbs.twimg.com/media/F-Grz0cbUAEQRow.jpg',
     name: 'Snoopy',
     age: 18,
     location: 'India',

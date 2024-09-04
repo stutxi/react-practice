@@ -11,10 +11,11 @@ const ProfileCard = () => {
         <img
           src={profile.picture}
           alt="Profile"
+          onError={(e) => e.target.src = 'https://via.placeholder.com/80'}
           className="w-20 h-20 rounded-full mx-auto absolute -bottom-10 inset-x-0 border-4 border-white"
         />
       </div>
-      <div className="pt-10 pb-6 text-center">
+      <div className="pt-14 pb-6 text-center">
         <h2 className="text-xl font-semibold">
           {profile.name} <span className="text-gray-500 text-sm">{profile.age}</span>
         </h2>
