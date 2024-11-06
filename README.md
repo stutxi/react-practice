@@ -5,3 +5,6 @@ React Practice
 
 ## 2. background changer
 ![](https://github.com/stutxi/react-practice/blob/master/background-changer/ezgif-4-8d129e6a79.gif)
+
+## 4. paragraph generator
+![image](https://github.com/user-attachments/assets/fe92c48b-0b8c-4f7a-83ec-81261ad45357)
